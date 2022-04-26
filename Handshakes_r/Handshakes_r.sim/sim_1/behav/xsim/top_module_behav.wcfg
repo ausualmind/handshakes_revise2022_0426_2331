@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_module_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_module" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="300.001 ns"></ZoomEndTime>
+      <Cursor1Time time="300.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/top_module/RAM" type="array">
+      <obj_property name="ElementShortName">RAM[9:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/m1/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/clk_m" type="logic">
+      <obj_property name="ElementShortName">clk_m</obj_property>
+      <obj_property name="ObjectShortName">clk_m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/data" type="array">
+      <obj_property name="ElementShortName">data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">data[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/m1/hand_shake_1" type="logic">
+      <obj_property name="ElementShortName">hand_shake_1</obj_property>
+      <obj_property name="ObjectShortName">hand_shake_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/m1/hand_shake_2" type="logic">
+      <obj_property name="ElementShortName">hand_shake_2</obj_property>
+      <obj_property name="ObjectShortName">hand_shake_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/clk_s" type="logic">
+      <obj_property name="ElementShortName">clk_s</obj_property>
+      <obj_property name="ObjectShortName">clk_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/s1/data_r" type="array">
+      <obj_property name="ElementShortName">data_r[9:0]</obj_property>
+      <obj_property name="ObjectShortName">data_r[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/s1/hand_shake_1" type="logic">
+      <obj_property name="ElementShortName">hand_shake_1</obj_property>
+      <obj_property name="ObjectShortName">hand_shake_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_module/s1/hand_shake_2" type="logic">
+      <obj_property name="ElementShortName">hand_shake_2</obj_property>
+      <obj_property name="ObjectShortName">hand_shake_2</obj_property>
+   </wvobject>
+</wave_config>
