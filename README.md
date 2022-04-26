@@ -1,6 +1,6 @@
 # handshakes_revise2022_0426_2331
-# 这个Vivado工程文件包含RTL代码和行为级仿真，Verilog代码(hand_shake.v)位置在目录Handshakes\Handshakes_r\Handshakes_r.srcs\sources_1\imports\Handshakes_r\下。
-# 仿真截图文件(hand.png)位置在目录Handshakes\Handshakes_r\下。
+# 这个Vivado工程文件包含RTL代码和行为级仿真，Verilog代码(hand_shake.v)位置在目录Handshakes_revise2022_0426_2331\Handshakes_r\Handshakes_r.srcs\sources_1\imports\Handshakes_r\下。
+# 仿真截图文件(hand.png)位置在目录Handshakes_revise2022_0426_2331\Handshakes_r\下。
 # 代码说明如下：
 # clk_m,clk_s分别表示master和slave的时钟，在仿真中时钟周期设置值分别为10ns和14ns
 # rst_n表示低电平复位，仿真中采用同步复位方式，第10ns时rst_n被拉高，往后一直处于高电平状态
