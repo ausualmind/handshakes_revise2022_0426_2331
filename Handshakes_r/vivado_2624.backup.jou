@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Apr 26 15:30:55 2022
+# Process ID: 2624
+# Current directory: E:/FPGA/vivado_project/Handshakes/Handshakes_r
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31400 E:\FPGA\vivado_project\Handshakes\Handshakes_r\Handshakes_r.xpr
+# Log file: E:/FPGA/vivado_project/Handshakes/Handshakes_r/vivado.log
+# Journal file: E:/FPGA/vivado_project/Handshakes/Handshakes_r\vivado.jou
+# Running On: SKY-20190703VPD, OS: Windows, CPU Frequency: 3192 MHz, CPU Physical cores: 6, Host memory: 34216 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA/vivado_project/Handshakes/Handshakes_r/Handshakes_r.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config E:/FPGA/vivado_project/Handshakes/Handshakes_r/Handshakes_r.sim/sim_1/behav/xsim/top_module_behav.wcfg
+source top_module.tcl
+run 100 ns
+restart
+run 100 ns
+run 100 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config E:/FPGA/vivado_project/Handshakes/Handshakes_r/Handshakes_r.sim/sim_1/behav/xsim/top_module_behav.wcfg
+source top_module.tcl
+save_wave_config {E:/FPGA/vivado_project/Handshakes/Handshakes_r/Handshakes_r.sim/sim_1/behav/xsim/top_module_behav.wcfg}
+close_sim
